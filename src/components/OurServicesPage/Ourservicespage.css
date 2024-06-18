@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* .card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+
+/* .App-header {
+  padding: 20px;
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* .card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden; */
+  /* width: 500px; */
+
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+} */
+
+/* .card-title {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+} */
+
+/* Responsive design for mobile devices */
+/* @media (max-width: 740px) {
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+margin-left: 60px;
+margin-right: 60px;
+  }
+
+} */
+/* 
+@media (max-width: 480px) {
+  .card-section {
+    grid-template-columns: 1fr;
+  }
+} */

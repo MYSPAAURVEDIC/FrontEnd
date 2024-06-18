@@ -1,0 +1,95 @@
+/* Navbar.css */
+
+/* Add these rules to make the navbar sticky */
+.sticky-navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+ 
+}
+
+.imgg2{
+  height: 90px;
+  width: 100px;
+}
+
+/* Rest of your existing CSS rules */
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+
+  .navbar-heading {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-hamburger {
+    display: block;
+    color: black;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    z-index: 1000; /* Ensure the menu is on top */
+  }
+
+  .mobile-menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .mobile-menu-item {
+    padding: 10px 0;
+    width: 100%;
+    text-align: left;
+    color: black;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .mobile-menu-item:hover {
+    background-color: #f5f5f5;
+  
+  }
+
+  .mobile-menu-icon {
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
+   
+  }
+}
+
+/* Desktop */
+.navbar-hamburger {
+  display: none;
+}

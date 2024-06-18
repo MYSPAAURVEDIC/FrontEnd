@@ -1,0 +1,73 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.left-section-Enquiry, .right-section-Enquiry {
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.Eh2 {
+    margin-top: 20px;
+}
+
+.Ediv {
+    margin-bottom: 10px;
+}
+
+.Einput, .Etextarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.Ebutton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Ebutton:hover {
+    background-color: #45a049;
+}
+
+.location-button {
+    background-color: #007BFF;
+}
+
+.location-button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .left-section-Enquiry, .right-section-Enquiry {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+  
+

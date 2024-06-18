@@ -1,0 +1,18 @@
+.contactBg{
+    background-image: url('../../Assets/Images/serviceBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-gradientContact {
+    background-image: linear-gradient(to right, white 0%, white 100%);
+    color: black;
+    transition: background-image 0.3s, color 0.3s;
+}
+
+/* Hover state */
+.bg-gradientContact:hover {
+    background-image: linear-gradient(to right, rgb(0, 12, 75) 0%, rgb(5, 2, 59) 100%);
+    color: white;
+}
+
